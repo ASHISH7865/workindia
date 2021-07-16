@@ -1,0 +1,25 @@
+.company{
+    width:100%;
+    height:150px;
+}
+.content{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    color: #3e65da;
+    
+}
+.cell{
+    display:flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px)
+{
+    .content{
+        font-family: 'Montserrat', sans-serif;
+        text-align:center;
+        color: #3e65da;
+        font-size:10px;
+        
+    }
+}

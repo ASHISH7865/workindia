@@ -1,0 +1,30 @@
+.recharge
+{
+    width: 100%;
+}
+.container
+{
+    text-align:center;
+    color:#3e65da ;
+}
+.Money{
+    color: orange;
+}
+.button
+{
+    padding: 20px;
+    width:150px;
+    border-radius:2em;
+}
+.button:Hover
+{
+    background-color:rgb(13, 206, 240);
+}
+
+@media screen and (max-width: 768px)
+{
+    .container
+    {
+        font-size:15px;
+    }
+}
